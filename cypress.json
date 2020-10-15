@@ -1,0 +1,17 @@
+{
+    "defaultCommandTimeout": 60000,
+    "requestTimeout": 60000,
+    "baseUrl": "http://localhost:3000",
+    "chromeWebSecurity": false,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "video": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/results",
+      "overwrite": false,
+      "html": true,
+      "json": false
+    },
+    "numTestsKeptInMemory": 0
+  }
